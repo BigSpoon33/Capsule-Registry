@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capsule-registry.dev/schemas/registry-manifest.schema.json",
+  "title": "Capsule Registry Manifest",
+  "description": "Global manifest listing all published learning capsules",
+  "type": "object",
+  "required": ["version", "generated_at", "capsules"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Manifest schema version"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of manifest generation"
+    },
+    "capsules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["class_id", "version", "title", "author", "difficulty", "path"],
+        "properties": {
+          "class_id": { "type": "string", "format": "uuid" },
+          "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "author": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "github": { "type": "string" }
+            }
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["beginner", "intermediate", "advanced", "expert"]
+          },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "estimated_hours": { "type": "number" },
+          "icon": { "type": "string" },
+          "path": {
+            "type": "string",
+            "description": "Path to capsule directory in registry repo"
+          },
+          "published_at": { "type": "string", "format": "date-time" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

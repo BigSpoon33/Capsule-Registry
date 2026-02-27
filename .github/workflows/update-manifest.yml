@@ -1,0 +1,38 @@
+name: Update Manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'capsules/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install capsule-cli dependencies
+        run: cd capsule-cli && bun install
+
+      - name: Build manifest
+        run: bun capsule-cli/src/index.ts build-manifest capsules -o manifest.json
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          if git diff --staged --quiet; then
+            echo "No manifest changes"
+          else
+            git commit -m "chore: update manifest.json [skip ci]"
+            git push
+          fi

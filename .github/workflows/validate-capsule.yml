@@ -1,0 +1,43 @@
+name: Validate Capsule PR
+
+on:
+  pull_request:
+    paths:
+      - 'capsules/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install capsule-cli dependencies
+        run: cd capsule-cli && bun install
+
+      - name: Detect changed capsules
+        id: changes
+        run: |
+          CHANGED=$(git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD -- capsules/ \
+            | sed 's|capsules/\([^/]*\)/.*|\1|' \
+            | sort -u)
+          echo "capsules<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Validate changed capsules
+        run: |
+          FAILED=0
+          while IFS= read -r capsule; do
+            [ -z "$capsule" ] && continue
+            echo "--- Validating: $capsule ---"
+            if ! bun capsule-cli/src/index.ts validate "capsules/$capsule"; then
+              FAILED=1
+            fi
+          done <<< "${{ steps.changes.outputs.capsules }}"
+          exit $FAILED

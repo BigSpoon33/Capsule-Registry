@@ -1,0 +1,24 @@
+{
+  "name": "capsule-cli",
+  "version": "0.1.0",
+  "description": "CLI for validating, scaffolding, and managing learning capsules",
+  "type": "module",
+  "bin": {
+    "capsule": "./src/index.ts"
+  },
+  "scripts": {
+    "dev": "bun src/index.ts",
+    "validate": "bun src/index.ts validate",
+    "build-manifest": "bun src/index.ts build-manifest"
+  },
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

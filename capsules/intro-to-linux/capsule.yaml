@@ -1,0 +1,63 @@
+class_id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+version: "1.0.0"
+title: "Introduction to Linux"
+description: "Learn the fundamentals of Linux — terminal navigation, file system, permissions, and basic commands. Perfect for absolute beginners."
+author:
+  name: "Shuma"
+  github: "BigSpoon33"
+difficulty: beginner
+estimated_hours: 3
+language: en
+tags:
+  - linux
+  - terminal
+  - command-line
+  - operating-systems
+icon: "🐧"
+
+tutor_persona:
+  name: "Tux"
+  style: encouraging
+  system_prompt_override: "You are Tux, a friendly Linux tutor. Use terminal examples frequently. Encourage hands-on practice."
+
+pass_criteria:
+  min_score: 70
+  required_labs:
+    - lab-01-navigation
+  required_quizzes:
+    - quiz-01-basics
+
+content_modules:
+  - id: lesson-01-terminal
+    type: lesson
+    title: "Terminal Basics"
+    path: lessons/01-terminal-basics.md
+    order: 0
+    duration_minutes: 20
+
+  - id: lesson-02-filesystem
+    type: lesson
+    title: "The File System"
+    path: lessons/02-file-system.md
+    order: 1
+    duration_minutes: 25
+    prerequisites:
+      - lesson-01-terminal
+
+  - id: lab-01-navigation
+    type: lab
+    title: "Lab: File System Navigation"
+    path: labs/lab-01-navigation.md
+    order: 2
+    duration_minutes: 30
+    prerequisites:
+      - lesson-02-filesystem
+
+  - id: quiz-01-basics
+    type: quiz
+    title: "Quiz: Linux Basics"
+    path: quizzes/quiz-01-basics.md
+    order: 3
+    duration_minutes: 15
+    prerequisites:
+      - lab-01-navigation

@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-02-27T20:55:04.854Z",
+  "capsules": [
+    {
+      "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "version": "1.0.0",
+      "title": "Introduction to Linux",
+      "description": "Learn the fundamentals of Linux — terminal navigation, file system, permissions, and basic commands. Perfect for absolute beginners.",
+      "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "linux",
+        "terminal",
+        "command-line",
+        "operating-systems"
+      ],
+      "estimated_hours": 3,
+      "icon": "🐧",
+      "path": "intro-to-linux",
+      "published_at": "2026-02-27T20:54:34.628Z"
+    }
+  ]
+}
