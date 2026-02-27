@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-27T20:55:04.854Z",
+  "generated_at": "2026-02-27T20:58:00.502Z",
   "capsules": [
     {
       "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -21,7 +21,7 @@
       "estimated_hours": 3,
       "icon": "🐧",
       "path": "intro-to-linux",
-      "published_at": "2026-02-27T20:54:34.628Z"
+      "published_at": "2026-02-27T20:57:58.218Z"
     }
   ]
 }
