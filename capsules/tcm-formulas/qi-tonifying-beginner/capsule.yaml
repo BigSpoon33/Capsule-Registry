@@ -1,0 +1,87 @@
+class_id: "0f67422e-87bf-4a0e-abbb-fcd6fb90599e"
+version: "1.0.0"
+title: "Qi Tonifying Formulas: Bensky Category"
+description: "Master the 4 foundational qi tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, Sheng Mai San. Targets CALE and NCCAOM board exams."
+author:
+  name: "Shuma"
+  github: "BigSpoon33"
+difficulty: beginner
+estimated_hours: 3
+language: en
+icon: "🌿"
+tags:
+  - CALE
+  - NCCAOM
+  - Formulas
+  - Qi-Tonifying
+  - TCM
+  - Bensky
+  - Spleen-Qi
+tutor_persona:
+  name: "Dr. Li"
+  style: direct
+  system_prompt_override: "You are Dr. Li, a TCM clinical instructor preparing students for CALE and NCCAOM board exams. Be precise with both Pin Yin and pharmaceutical herb names. Emphasize pattern identification and exam-relevant clinical distinctions."
+pass_criteria:
+  min_score: 75
+  required_quizzes:
+    - quiz-qi-tonifying
+content_modules:
+  - id: lesson-01-si-jun-zi-tang
+    type: lesson
+    title: "Si Jun Zi Tang (Four Gentlemen Decoction)"
+    path: lessons/01-si-jun-zi-tang.md
+    order: 0
+    duration_minutes: 20
+
+  - id: lesson-02-shen-ling-bai-zhu-san
+    type: lesson
+    title: "Shen Ling Bai Zhu San (Ginseng, Poria, and Atractylodes Powder)"
+    path: lessons/02-shen-ling-bai-zhu-san.md
+    order: 1
+    duration_minutes: 20
+
+  - id: lesson-03-bu-zhong-yi-qi-tang
+    type: lesson
+    title: "Bu Zhong Yi Qi Tang (Supplement the Middle and Augment the Qi Decoction)"
+    path: lessons/03-bu-zhong-yi-qi-tang.md
+    order: 2
+    duration_minutes: 20
+
+  - id: lesson-04-sheng-mai-san
+    type: lesson
+    title: "Sheng Mai San (Generate the Pulse Powder)"
+    path: lessons/04-sheng-mai-san.md
+    order: 3
+    duration_minutes: 20
+
+  - id: slides-qi-tonifying-overview
+    type: slides
+    title: "Slides: Qi Tonifying Formulas Overview"
+    path: slides/qi-tonifying-overview.md
+    order: 4
+    duration_minutes: 15
+
+  - id: flashcard-qi-tonifying
+    type: flashcard
+    title: "Flashcards: All 4 Formulas"
+    path: flashcards/qi-tonifying-formulas.md
+    order: 5
+    duration_minutes: 15
+
+  - id: quiz-qi-tonifying
+    type: quiz
+    title: "Quiz: Qi Tonifying Formulas"
+    path: quizzes/qi-tonifying-quiz.md
+    order: 6
+    duration_minutes: 20
+    prerequisites:
+      - lesson-04-sheng-mai-san
+
+  - id: conversation-qi-tonifying
+    type: guided-conversation
+    title: "Clinical Reasoning: Qi Tonifying Formulas"
+    path: conversations/qi-tonifying-conversation.md
+    order: 7
+    duration_minutes: 25
+    prerequisites:
+      - quiz-qi-tonifying
