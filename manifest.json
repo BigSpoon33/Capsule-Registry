@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-01T00:17:53.999Z",
+  "generated_at": "2026-03-01T00:45:00.000Z",
   "capsules": [
     {
       "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -22,6 +22,30 @@
       "icon": "🐧",
       "path": "intro-to-linux",
       "published_at": "2026-03-01T00:17:51.593Z"
+    },
+    {
+      "class_id": "0f67422e-87bf-4a0e-abbb-fcd6fb90599e",
+      "version": "1.0.0",
+      "title": "Qi Tonifying Formulas: Bensky Category",
+      "description": "Master the 4 foundational Qi-tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, and Sheng Mai San. Targets CALE and NCCAOM board exams.",
+      "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "CALE",
+        "NCCAOM",
+        "Formulas",
+        "Qi-Tonifying",
+        "TCM",
+        "Bensky",
+        "Spleen-Qi"
+      ],
+      "estimated_hours": 3,
+      "icon": "🌿",
+      "path": "tcm-formulas/qi-tonifying-beginner",
+      "published_at": "2026-02-28T23:40:00.000Z"
     }
   ]
 }
