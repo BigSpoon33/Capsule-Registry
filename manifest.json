@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-14T00:00:00.000Z",
+  "generated_at": "2026-03-15T00:27:32.315Z",
   "capsules": [
     {
       "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -21,13 +21,13 @@
       "estimated_hours": 3,
       "icon": "🐧",
       "path": "intro-to-linux",
-      "published_at": "2026-03-01T00:17:51.593Z"
+      "published_at": "2026-03-15T00:27:30.219Z"
     },
     {
       "class_id": "0f67422e-87bf-4a0e-abbb-fcd6fb90599e",
       "version": "1.0.0",
       "title": "Qi Tonifying Formulas: Bensky Category",
-      "description": "Master the 4 foundational Qi-tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, and Sheng Mai San. Targets CALE and NCCAOM board exams.",
+      "description": "Master the 4 foundational qi tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, Sheng Mai San. Targets CALE and NCCAOM board exams.",
       "author": {
         "name": "Shuma",
         "github": "BigSpoon33"
@@ -45,7 +45,7 @@
       "estimated_hours": 3,
       "icon": "🌿",
       "path": "tcm-formulas/qi-tonifying-beginner",
-      "published_at": "2026-02-28T23:40:00.000Z"
+      "published_at": "2026-03-15T00:27:30.219Z"
     },
     {
       "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
@@ -53,20 +53,19 @@
       "title": "Yin & Yang Theory",
       "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
       "author": {
-        "name": "Shuma",
-        "github": "BigSpoon33"
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
       },
       "difficulty": "beginner",
       "tags": [
         "foundations",
         "theory",
-        "yin-yang",
-        "TCM"
+        "yin-yang"
       ],
       "estimated_hours": 1.5,
       "icon": "🌿",
       "path": "foundations/tcm-foundations-yin-yang",
-      "published_at": "2026-03-14T00:00:00.000Z"
+      "published_at": "2026-03-15T00:27:30.218Z"
     }
   ]
 }
