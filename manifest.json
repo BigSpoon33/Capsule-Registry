@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-01T00:45:00.000Z",
+  "generated_at": "2026-03-14T00:00:00.000Z",
   "capsules": [
     {
       "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -46,6 +46,27 @@
       "icon": "🌿",
       "path": "tcm-formulas/qi-tonifying-beginner",
       "published_at": "2026-02-28T23:40:00.000Z"
+    },
+    {
+      "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
+      "version": "0.1.0",
+      "title": "Yin & Yang Theory",
+      "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
+      "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "foundations",
+        "theory",
+        "yin-yang",
+        "TCM"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-yin-yang",
+      "published_at": "2026-03-14T00:00:00.000Z"
     }
   ]
 }

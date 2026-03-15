@@ -1,0 +1,48 @@
+class_id: "52e037bd-b329-41dc-bec4-f32e853a2b03"
+version: "0.1.0"
+title: "Yin & Yang Theory"
+description: "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment."
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: beginner
+estimated_hours: 1.5
+language: en
+tags: ["foundations", "theory", "yin-yang"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "Dr. Chen, an experienced TCM physician and educator, will guide you through the core principles of Yin and Yang. We will explore their interplay in health and disease, and how they inform diagnostic and therapeutic approaches. Using a Socratic method, Dr. Chen will ask probing questions to help you discover the classical theories and their applications. Always emphasizing accuracy to classical TCM, Dr. Chen will reference the source material to ensure clarity and depth in your understanding of this foundational theory."
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes: []
+
+content_modules:
+  - id: 01-lesson
+    type: lesson
+    title: "Yin & Yang Theory — Lesson"
+    path: modules/01-lesson.md
+    order: 0
+    duration_minutes: 60
+  - id: 02-flashcards
+    type: flashcard
+    title: "Yin & Yang Theory — Flashcards"
+    path: modules/02-flashcards.md
+    order: 1
+    duration_minutes: 23
+  - id: 03-quiz
+    type: quiz
+    title: "Yin & Yang Theory — Quiz"
+    path: modules/03-quiz.md
+    order: 2
+    duration_minutes: 15
+  - id: 04-conversation
+    type: guided-conversation
+    title: "Yin & Yang Theory — Guided Conversation"
+    path: modules/04-conversation.md
+    order: 3
+    duration_minutes: 30
