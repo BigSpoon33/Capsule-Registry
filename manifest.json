@@ -1,27 +1,7 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-17T04:59:27.692860Z",
+  "generated_at": "2026-03-17T05:00:00.096Z",
   "capsules": [
-    {
-      "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
-      "version": "0.1.0",
-      "title": "Yin & Yang Theory",
-      "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "beginner",
-      "tags": [
-        "foundations",
-        "theory",
-        "yin-yang"
-      ],
-      "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-yin-yang",
-      "published_at": "2026-03-15T00:25:01.187080Z"
-    },
     {
       "class_id": "7645594c-8737-42f4-ad0d-78c10b53701a",
       "version": "0.1.0",
@@ -38,9 +18,30 @@
         "yang"
       ],
       "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "path": "herbs/tcm-herbs-warm-interior",
-      "published_at": "2026-03-17T04:56:28.599987Z"
+      "published_at": "2026-03-17T04:59:57.911Z"
+    },
+    {
+      "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "version": "1.0.0",
+      "title": "Introduction to Linux",
+      "description": "Learn the fundamentals of Linux — terminal navigation, file system, permissions, and basic commands. Perfect for absolute beginners.",
+      "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "linux",
+        "terminal",
+        "command-line",
+        "operating-systems"
+      ],
+      "estimated_hours": 3,
+      "icon": "🐧",
+      "path": "intro-to-linux",
+      "published_at": "2026-03-17T04:59:57.913Z"
     },
     {
       "class_id": "0f67422e-87bf-4a0e-abbb-fcd6fb90599e",
@@ -62,9 +63,29 @@
         "Spleen-Qi"
       ],
       "estimated_hours": 3,
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "path": "tcm-formulas/qi-tonifying-beginner",
-      "published_at": "2026-03-01T00:17:16.327831Z"
+      "published_at": "2026-03-17T04:59:57.913Z"
+    },
+    {
+      "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
+      "version": "0.1.0",
+      "title": "Yin & Yang Theory",
+      "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "foundations",
+        "theory",
+        "yin-yang"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-yin-yang",
+      "published_at": "2026-03-17T04:59:57.910Z"
     }
   ]
 }
