@@ -1,0 +1,272 @@
+class_id: "7645594c-8737-42f4-ad0d-78c10b53701a"
+version: "0.1.0"
+title: "Herbs that Warm the Interior and Expel Cold"
+description: "Master the selection and application of herbs that warm the interior and expel cold, a critical category for treating yang deficiency and external cold pathogens. This module explores the nuanced differences between warming the middle jiao versus warming the lower jiao, utilizing classical texts to clarify indications, contraindications, and synergistic pairings. Students will learn to differentiate patterns of cold in the stomach, spleen, and kidneys, ensuring precise clinical application to re"
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: intermediate
+estimated_hours: 1.5
+language: en
+tags: ["herbs", "warm-interior", "yang"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "You are Dr. Chen, a seasoned TCM practitioner and educator specializing in herbal pharmacology. Your task is to guide students through 'Herbs that Warm the Interior and Expel Cold' using the Socratic method. Do not simply state facts; instead, ask probing questions that lead students to recall specific indications, taste profiles, and meridian affinities from the provided source notes. Emphasize the critical distinction between warming the middle jiao (spleen/stomach) and the lower jiao (kidneys/liver), and the risks of using these herbs in cases of internal heat or yin deficiency. When students make errors, gently correct them by referencing classical theory and asking them to re-evaluate the pattern differentiation. Maintain a wise, encouraging tone that prioritizes clinical safety and theoretical accuracy over rote memorization."
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes:
+    - quiz-001-hu-jiao
+    - quiz-002-wu-zhu-yu
+    - quiz-003-gao-liang-jiang
+    - quiz-004-bi-ba
+    - quiz-005-ding-xiang
+    - quiz-006-xiao-hui-xiang
+    - quiz-007-gan-jiang
+    - quiz-008-rou-gui
+
+content_modules:
+  - id: lesson-001-hu-jiao
+    type: lesson
+    title: "Hu Jiao / Black Pepper"
+    path: modules/001-hu-jiao/lesson.md
+    order: 0
+    duration_minutes: 10
+  - id: flashcards-001-hu-jiao
+    type: flashcard
+    title: "Flashcards: Hu Jiao / Black Pepper"
+    path: modules/001-hu-jiao/flashcards.md
+    order: 1
+    duration_minutes: 5
+    prerequisites:
+      - lesson-001-hu-jiao
+  - id: quiz-001-hu-jiao
+    type: quiz
+    title: "Quiz: Hu Jiao / Black Pepper"
+    path: modules/001-hu-jiao/quiz.md
+    order: 2
+    duration_minutes: 5
+    prerequisites:
+      - lesson-001-hu-jiao
+  - id: conversation-001-hu-jiao
+    type: guided-conversation
+    title: "Discussion: Hu Jiao / Black Pepper"
+    path: modules/001-hu-jiao/conversation.md
+    order: 3
+    duration_minutes: 10
+    prerequisites:
+      - lesson-001-hu-jiao
+  - id: lesson-002-wu-zhu-yu
+    type: lesson
+    title: "Wu Zhu Yu"
+    path: modules/002-wu-zhu-yu/lesson.md
+    order: 4
+    duration_minutes: 10
+  - id: flashcards-002-wu-zhu-yu
+    type: flashcard
+    title: "Flashcards: Wu Zhu Yu"
+    path: modules/002-wu-zhu-yu/flashcards.md
+    order: 5
+    duration_minutes: 5
+    prerequisites:
+      - lesson-002-wu-zhu-yu
+  - id: quiz-002-wu-zhu-yu
+    type: quiz
+    title: "Quiz: Wu Zhu Yu"
+    path: modules/002-wu-zhu-yu/quiz.md
+    order: 6
+    duration_minutes: 5
+    prerequisites:
+      - lesson-002-wu-zhu-yu
+  - id: conversation-002-wu-zhu-yu
+    type: guided-conversation
+    title: "Discussion: Wu Zhu Yu"
+    path: modules/002-wu-zhu-yu/conversation.md
+    order: 7
+    duration_minutes: 10
+    prerequisites:
+      - lesson-002-wu-zhu-yu
+  - id: lesson-003-gao-liang-jiang
+    type: lesson
+    title: "Gao Liang Jiang"
+    path: modules/003-gao-liang-jiang/lesson.md
+    order: 8
+    duration_minutes: 10
+  - id: flashcards-003-gao-liang-jiang
+    type: flashcard
+    title: "Flashcards: Gao Liang Jiang"
+    path: modules/003-gao-liang-jiang/flashcards.md
+    order: 9
+    duration_minutes: 5
+    prerequisites:
+      - lesson-003-gao-liang-jiang
+  - id: quiz-003-gao-liang-jiang
+    type: quiz
+    title: "Quiz: Gao Liang Jiang"
+    path: modules/003-gao-liang-jiang/quiz.md
+    order: 10
+    duration_minutes: 5
+    prerequisites:
+      - lesson-003-gao-liang-jiang
+  - id: conversation-003-gao-liang-jiang
+    type: guided-conversation
+    title: "Discussion: Gao Liang Jiang"
+    path: modules/003-gao-liang-jiang/conversation.md
+    order: 11
+    duration_minutes: 10
+    prerequisites:
+      - lesson-003-gao-liang-jiang
+  - id: lesson-004-bi-ba
+    type: lesson
+    title: "Bi Ba"
+    path: modules/004-bi-ba/lesson.md
+    order: 12
+    duration_minutes: 10
+  - id: flashcards-004-bi-ba
+    type: flashcard
+    title: "Flashcards: Bi Ba"
+    path: modules/004-bi-ba/flashcards.md
+    order: 13
+    duration_minutes: 5
+    prerequisites:
+      - lesson-004-bi-ba
+  - id: quiz-004-bi-ba
+    type: quiz
+    title: "Quiz: Bi Ba"
+    path: modules/004-bi-ba/quiz.md
+    order: 14
+    duration_minutes: 5
+    prerequisites:
+      - lesson-004-bi-ba
+  - id: conversation-004-bi-ba
+    type: guided-conversation
+    title: "Discussion: Bi Ba"
+    path: modules/004-bi-ba/conversation.md
+    order: 15
+    duration_minutes: 10
+    prerequisites:
+      - lesson-004-bi-ba
+  - id: lesson-005-ding-xiang
+    type: lesson
+    title: "Ding Xiang"
+    path: modules/005-ding-xiang/lesson.md
+    order: 16
+    duration_minutes: 10
+  - id: flashcards-005-ding-xiang
+    type: flashcard
+    title: "Flashcards: Ding Xiang"
+    path: modules/005-ding-xiang/flashcards.md
+    order: 17
+    duration_minutes: 5
+    prerequisites:
+      - lesson-005-ding-xiang
+  - id: quiz-005-ding-xiang
+    type: quiz
+    title: "Quiz: Ding Xiang"
+    path: modules/005-ding-xiang/quiz.md
+    order: 18
+    duration_minutes: 5
+    prerequisites:
+      - lesson-005-ding-xiang
+  - id: conversation-005-ding-xiang
+    type: guided-conversation
+    title: "Discussion: Ding Xiang"
+    path: modules/005-ding-xiang/conversation.md
+    order: 19
+    duration_minutes: 10
+    prerequisites:
+      - lesson-005-ding-xiang
+  - id: lesson-006-xiao-hui-xiang
+    type: lesson
+    title: "Xiao Hui Xiang"
+    path: modules/006-xiao-hui-xiang/lesson.md
+    order: 20
+    duration_minutes: 10
+  - id: flashcards-006-xiao-hui-xiang
+    type: flashcard
+    title: "Flashcards: Xiao Hui Xiang"
+    path: modules/006-xiao-hui-xiang/flashcards.md
+    order: 21
+    duration_minutes: 5
+    prerequisites:
+      - lesson-006-xiao-hui-xiang
+  - id: quiz-006-xiao-hui-xiang
+    type: quiz
+    title: "Quiz: Xiao Hui Xiang"
+    path: modules/006-xiao-hui-xiang/quiz.md
+    order: 22
+    duration_minutes: 5
+    prerequisites:
+      - lesson-006-xiao-hui-xiang
+  - id: conversation-006-xiao-hui-xiang
+    type: guided-conversation
+    title: "Discussion: Xiao Hui Xiang"
+    path: modules/006-xiao-hui-xiang/conversation.md
+    order: 23
+    duration_minutes: 10
+    prerequisites:
+      - lesson-006-xiao-hui-xiang
+  - id: lesson-007-gan-jiang
+    type: lesson
+    title: "Gan Jiang"
+    path: modules/007-gan-jiang/lesson.md
+    order: 24
+    duration_minutes: 10
+  - id: flashcards-007-gan-jiang
+    type: flashcard
+    title: "Flashcards: Gan Jiang"
+    path: modules/007-gan-jiang/flashcards.md
+    order: 25
+    duration_minutes: 5
+    prerequisites:
+      - lesson-007-gan-jiang
+  - id: quiz-007-gan-jiang
+    type: quiz
+    title: "Quiz: Gan Jiang"
+    path: modules/007-gan-jiang/quiz.md
+    order: 26
+    duration_minutes: 5
+    prerequisites:
+      - lesson-007-gan-jiang
+  - id: conversation-007-gan-jiang
+    type: guided-conversation
+    title: "Discussion: Gan Jiang"
+    path: modules/007-gan-jiang/conversation.md
+    order: 27
+    duration_minutes: 10
+    prerequisites:
+      - lesson-007-gan-jiang
+  - id: lesson-008-rou-gui
+    type: lesson
+    title: "Rou Gui / Cinnamomi Cortex"
+    path: modules/008-rou-gui/lesson.md
+    order: 28
+    duration_minutes: 10
+  - id: flashcards-008-rou-gui
+    type: flashcard
+    title: "Flashcards: Rou Gui / Cinnamomi Cortex"
+    path: modules/008-rou-gui/flashcards.md
+    order: 29
+    duration_minutes: 5
+    prerequisites:
+      - lesson-008-rou-gui
+  - id: quiz-008-rou-gui
+    type: quiz
+    title: "Quiz: Rou Gui / Cinnamomi Cortex"
+    path: modules/008-rou-gui/quiz.md
+    order: 30
+    duration_minutes: 5
+    prerequisites:
+      - lesson-008-rou-gui
+  - id: conversation-008-rou-gui
+    type: guided-conversation
+    title: "Discussion: Rou Gui / Cinnamomi Cortex"
+    path: modules/008-rou-gui/conversation.md
+    order: 31
+    duration_minutes: 10
+    prerequisites:
+      - lesson-008-rou-gui

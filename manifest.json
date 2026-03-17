@@ -1,33 +1,12 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-14T00:00:00.000Z",
+  "generated_at": "2026-03-17T04:55:27.131Z",
   "capsules": [
-    {
-      "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "version": "1.0.0",
-      "title": "Introduction to Linux",
-      "description": "Learn the fundamentals of Linux — terminal navigation, file system, permissions, and basic commands. Perfect for absolute beginners.",
-      "author": {
-        "name": "Shuma",
-        "github": "BigSpoon33"
-      },
-      "difficulty": "beginner",
-      "tags": [
-        "linux",
-        "terminal",
-        "command-line",
-        "operating-systems"
-      ],
-      "estimated_hours": 3,
-      "icon": "🐧",
-      "path": "intro-to-linux",
-      "published_at": "2026-03-01T00:17:51.593Z"
-    },
     {
       "class_id": "0f67422e-87bf-4a0e-abbb-fcd6fb90599e",
       "version": "1.0.0",
       "title": "Qi Tonifying Formulas: Bensky Category",
-      "description": "Master the 4 foundational Qi-tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, and Sheng Mai San. Targets CALE and NCCAOM board exams.",
+      "description": "Master the 4 foundational qi tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, Sheng Mai San. Targets CALE and NCCAOM board exams.",
       "author": {
         "name": "Shuma",
         "github": "BigSpoon33"
@@ -45,7 +24,7 @@
       "estimated_hours": 3,
       "icon": "🌿",
       "path": "tcm-formulas/qi-tonifying-beginner",
-      "published_at": "2026-02-28T23:40:00.000Z"
+      "published_at": "2026-03-01T00:17:16.327Z"
     },
     {
       "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
@@ -53,20 +32,39 @@
       "title": "Yin & Yang Theory",
       "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
       "author": {
-        "name": "Shuma",
-        "github": "BigSpoon33"
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
       },
       "difficulty": "beginner",
       "tags": [
         "foundations",
         "theory",
-        "yin-yang",
-        "TCM"
+        "yin-yang"
       ],
       "estimated_hours": 1.5,
       "icon": "🌿",
       "path": "foundations/tcm-foundations-yin-yang",
-      "published_at": "2026-03-14T00:00:00.000Z"
+      "published_at": "2026-03-15T00:25:01.187Z"
+    },
+    {
+      "class_id": "7645594c-8737-42f4-ad0d-78c10b53701a",
+      "version": "0.1.0",
+      "title": "Herbs that Warm the Interior and Expel Cold",
+      "description": "Master the selection and application of herbs that warm the interior and expel cold, a critical category for treating yang deficiency and external cold pathogens. This module explores the nuanced differences between warming the middle jiao versus warming the lower jiao, utilizing classical texts to clarify indications, contraindications, and synergistic pairings. Students will learn to differentiate patterns of cold in the stomach, spleen, and kidneys, ensuring precise clinical application to re",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "intermediate",
+      "tags": [
+        "herbs",
+        "warm-interior",
+        "yang"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "herbs/tcm-herbs-warm-interior",
+      "published_at": "2026-03-17T04:55:27.097Z"
     }
   ]
 }
