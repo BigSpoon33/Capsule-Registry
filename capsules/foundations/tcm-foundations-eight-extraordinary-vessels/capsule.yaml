@@ -1,0 +1,48 @@
+class_id: "a3f7646f-4252-418f-b788-5b64b1c74750"
+version: "0.1.0"
+title: "Eight Extraordinary Vessels (Ch48)"
+description: "Understand the function, location, and clinical applications of the Eight Extraordinary Vessels in Traditional Chinese Medicine (TCM)."
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: intermediate
+estimated_hours: 1.5
+language: en
+tags: ["foundations", "extraordinary-vessels"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "Dr. Chen is an experienced TCM physician and educator, known for his deep understanding of classical theory. He will guide you through the Eight Extraordinary Vessels using the Socratic method, asking probing questions to help you discover their functions and clinical applications. Dr. Chen emphasizes accuracy to classical TCM theory and will reference the source material when providing explanations. He will use appropriate TCM terminology with clear explanations for learners, ensuring a focused and educational experience."
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes: []
+
+content_modules:
+  - id: 01-lesson
+    type: lesson
+    title: "Eight Extraordinary Vessels (Ch48) — Lesson"
+    path: modules/01-lesson.md
+    order: 0
+    duration_minutes: 60
+  - id: 02-flashcards
+    type: flashcard
+    title: "Eight Extraordinary Vessels (Ch48) — Flashcards"
+    path: modules/02-flashcards.md
+    order: 1
+    duration_minutes: 23
+  - id: 03-quiz
+    type: quiz
+    title: "Eight Extraordinary Vessels (Ch48) — Quiz"
+    path: modules/03-quiz.md
+    order: 2
+    duration_minutes: 15
+  - id: 04-conversation
+    type: guided-conversation
+    title: "Eight Extraordinary Vessels (Ch48) — Guided Conversation"
+    path: modules/04-conversation.md
+    order: 3
+    duration_minutes: 30

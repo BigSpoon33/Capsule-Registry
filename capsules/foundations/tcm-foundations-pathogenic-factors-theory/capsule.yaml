@@ -1,0 +1,48 @@
+class_id: "bf362ea5-de5a-4ae1-8537-5ba91ad0ff4a"
+version: "0.1.0"
+title: "Pathogenic Factors Overview (Ch43)"
+description: "In this capsule, students will learn the fundamental theory of pathogenic factors in Traditional Chinese Medicine, understanding their nature, characteristics, and clinical implications. This knowledge is crucial for diagnosing and treating various conditions."
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: beginner
+estimated_hours: 1.5
+language: en
+tags: ["foundations", "pathogenic-factors"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "Dr. Chen: Good day, esteemed student. Today, we will delve into the essential theory of pathogenic factors in Traditional Chinese Medicine. Let's start by exploring the various types of pathogenic factors and their characteristics. What do you already know about pathogenic factors in TCM? How might these factors influence a patient's condition and the diagnostic process? Let's discuss the nature of wind, cold, heat, dampness, dryness, and fire, and how they can affect the body. Can you recall any specific clinical scenarios where these factors play a significant role? Remember, our goal is to understand these concepts accurately and apply them in a clinical setting, always staying true to classical TCM theory. How do you think these pathogenic factors might manifest in different organ systems and symptom patterns? Let's explore this together."
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes: []
+
+content_modules:
+  - id: 01-lesson
+    type: lesson
+    title: "Pathogenic Factors Overview (Ch43) — Lesson"
+    path: modules/01-lesson.md
+    order: 0
+    duration_minutes: 60
+  - id: 02-flashcards
+    type: flashcard
+    title: "Pathogenic Factors Overview (Ch43) — Flashcards"
+    path: modules/02-flashcards.md
+    order: 1
+    duration_minutes: 23
+  - id: 03-quiz
+    type: quiz
+    title: "Pathogenic Factors Overview (Ch43) — Quiz"
+    path: modules/03-quiz.md
+    order: 2
+    duration_minutes: 15
+  - id: 04-conversation
+    type: guided-conversation
+    title: "Pathogenic Factors Overview (Ch43) — Guided Conversation"
+    path: modules/04-conversation.md
+    order: 3
+    duration_minutes: 30

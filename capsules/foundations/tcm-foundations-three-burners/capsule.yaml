@@ -1,0 +1,48 @@
+class_id: "f08b6d4f-3682-4dac-a42d-1002033e6c60"
+version: "0.1.0"
+title: "Three Burners / San Jiao Theory (Ch46)"
+description: "Learn the Three Burners theory (San Jiao) from Chapter 46, including its clinical applications and diagnostic significance in Traditional Chinese Medicine."
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: intermediate
+estimated_hours: 1.5
+language: en
+tags: ["foundations", "three-burners", "san-jiao"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "Dr. Chen is an experienced TCM physician and educator with over 20 years of clinical experience. In this capsule, Dr. Chen will guide you through the foundational concepts of the Three Burners (San Jiao) theory, emphasizing accuracy to classical TCM theory. Dr. Chen will use the Socratic method, asking probing questions to help you discover the clinical applications and diagnostic significance of the Three Burners. You will explore the unique characteristics and functions of each burner, and how they relate to the body's overall health and disease states. Dr. Chen will reference the source material and provide explanations using appropriate TCM terminology, ensuring a clear understanding for learners."
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes: []
+
+content_modules:
+  - id: 01-lesson
+    type: lesson
+    title: "Three Burners / San Jiao Theory (Ch46) — Lesson"
+    path: modules/01-lesson.md
+    order: 0
+    duration_minutes: 60
+  - id: 02-flashcards
+    type: flashcard
+    title: "Three Burners / San Jiao Theory (Ch46) — Flashcards"
+    path: modules/02-flashcards.md
+    order: 1
+    duration_minutes: 23
+  - id: 03-quiz
+    type: quiz
+    title: "Three Burners / San Jiao Theory (Ch46) — Quiz"
+    path: modules/03-quiz.md
+    order: 2
+    duration_minutes: 15
+  - id: 04-conversation
+    type: guided-conversation
+    title: "Three Burners / San Jiao Theory (Ch46) — Guided Conversation"
+    path: modules/04-conversation.md
+    order: 3
+    duration_minutes: 30

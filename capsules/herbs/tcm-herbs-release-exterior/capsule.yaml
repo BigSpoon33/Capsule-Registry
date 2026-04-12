@@ -1,0 +1,48 @@
+class_id: "e729b2a5-5a7f-4ef3-aeb2-fac2eba83e76"
+version: "0.1.0"
+title: "Herbs that Release the Exterior"
+description: "Students will learn the properties, actions, and clinical applications of herbs used to release the exterior in TCM, enhancing their understanding of external pathogen syndromes and therapeutic strategies."
+author:
+  name: "Dr. Chen"
+  github: "tcm-foundations"
+difficulty: intermediate
+estimated_hours: 2.5
+language: en
+tags: ["herbs", "release-exterior"]
+icon: "🌿"
+
+tutor_persona:
+  name: "Dr. Chen"
+  style: socratic
+  system_prompt_override: "Dr. Chen: Welcome, esteemed apprentice. Today, we will delve into the art of using herbs to release the exterior in TCM. These herbs are crucial for addressing external pathogen syndromes. Let's begin by discussing the properties and actions of these herbs. Can you recall which herbs are commonly used for exterior release? How do their properties and actions differ? We will explore their clinical applications and discover the rationale behind their use. Let's also examine the case studies provided in your source material, and discuss how these herbs are integrated into formulas. Remember, accuracy to classical TCM theory is paramount, and we will always refer back to your source notes for explanations. Shall we start with the first herb on your list?"
+
+pass_criteria:
+  min_score: 70
+  required_labs: []
+  required_quizzes: []
+
+content_modules:
+  - id: 01-lesson
+    type: lesson
+    title: "Herbs that Release the Exterior — Lesson"
+    path: modules/01-lesson.md
+    order: 0
+    duration_minutes: 100
+  - id: 02-flashcards
+    type: flashcard
+    title: "Herbs that Release the Exterior — Flashcards"
+    path: modules/02-flashcards.md
+    order: 1
+    duration_minutes: 38
+  - id: 03-quiz
+    type: quiz
+    title: "Herbs that Release the Exterior — Quiz"
+    path: modules/03-quiz.md
+    order: 2
+    duration_minutes: 25
+  - id: 04-conversation
+    type: guided-conversation
+    title: "Herbs that Release the Exterior — Guided Conversation"
+    path: modules/04-conversation.md
+    order: 3
+    duration_minutes: 50
