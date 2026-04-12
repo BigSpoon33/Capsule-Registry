@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-12T17:57:13.786184Z",
+  "generated_at": "2026-04-12T17:59:07.732Z",
   "capsules": [
     {
       "class_id": "a3f7646f-4252-418f-b788-5b64b1c74750",
@@ -13,17 +13,18 @@
       },
       "difficulty": "intermediate",
       "tags": [
-        "foundations"
+        "foundations",
+        "extraordinary-vessels"
       ],
       "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "path": "foundations/tcm-foundations-eight-extraordinary-vessels",
-      "published_at": "2026-04-12T17:56:18.616021Z"
+      "published_at": "2026-04-12T17:59:05.987Z"
     },
     {
       "class_id": "32c45584-5fd8-489f-b460-cf3797dcb3a7",
       "version": "0.1.0",
-      "title": "Four Levels Theory \u2014 Wen Bing (Ch45)",
+      "title": "Four Levels Theory — Wen Bing (Ch45)",
       "description": "Students will learn the Four Levels theory in Wen Bing, a foundational concept for diagnosing and treating febrile diseases. This knowledge is crucial for understanding the progression and treatment of febrile illnesses.",
       "author": {
         "name": "Dr. Chen",
@@ -31,102 +32,14 @@
       },
       "difficulty": "intermediate",
       "tags": [
-        "foundations"
+        "foundations",
+        "four-levels",
+        "wen-bing"
       ],
-      "estimated_hours": 2.0,
-      "icon": "\ud83c\udf3f",
+      "estimated_hours": 2,
+      "icon": "🌿",
       "path": "foundations/tcm-foundations-four-levels",
-      "published_at": "2026-04-12T17:56:18.610021Z"
-    },
-    {
-      "class_id": "bf362ea5-de5a-4ae1-8537-5ba91ad0ff4a",
-      "version": "0.1.0",
-      "title": "Pathogenic Factors Overview (Ch43)",
-      "description": "In this capsule, students will learn the fundamental theory of pathogenic factors in Traditional Chinese Medicine, understanding their nature, characteristics, and clinical implications. This knowledge is crucial for diagnosing and treating various conditions.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "beginner",
-      "tags": [
-        "foundations"
-      ],
-      "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-pathogenic-factors-theory",
-      "published_at": "2026-04-12T17:56:18.606737Z"
-    },
-    {
-      "class_id": "1d805ac4-0cbe-4208-973b-6aa335c629b6",
-      "version": "0.1.0",
-      "title": "Six Stage Theory \u2014 Shang Han Lun (Ch44)",
-      "description": "Understand the Six Stage Theory from Shang Han Lun, critical for diagnosing and treating external pathogenic factors in TCM.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "intermediate",
-      "tags": [
-        "foundations"
-      ],
-      "estimated_hours": 2.0,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-six-stages",
-      "published_at": "2026-04-12T17:56:18.608552Z"
-    },
-    {
-      "class_id": "f08b6d4f-3682-4dac-a42d-1002033e6c60",
-      "version": "0.1.0",
-      "title": "Three Burners / San Jiao Theory (Ch46)",
-      "description": "Learn the Three Burners theory (San Jiao) from Chapter 46, including its clinical applications and diagnostic significance in Traditional Chinese Medicine.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "intermediate",
-      "tags": [
-        "foundations"
-      ],
-      "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-three-burners",
-      "published_at": "2026-04-12T17:56:18.612311Z"
-    },
-    {
-      "class_id": "5a20c7b2-79a9-41d3-b1bd-c20ea72842c2",
-      "version": "0.1.0",
-      "title": "The Twelve Channels (Ch47)",
-      "description": "Understand the fundamental role of the Twelve Channels in Traditional Chinese Medicine, their functions, and how they relate to diagnosing and treating imbalances in the body.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "beginner",
-      "tags": [
-        "foundations"
-      ],
-      "estimated_hours": 2.0,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-twelve-channels",
-      "published_at": "2026-04-12T17:56:18.614142Z"
-    },
-    {
-      "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
-      "version": "0.1.0",
-      "title": "Yin & Yang Theory",
-      "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
-      "author": {
-        "name": "Dr. Chen",
-        "github": "tcm-foundations"
-      },
-      "difficulty": "beginner",
-      "tags": [
-        "foundations"
-      ],
-      "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
-      "path": "foundations/tcm-foundations-yin-yang",
-      "published_at": "2026-03-15T00:25:01.187080Z"
+      "published_at": "2026-04-12T17:59:05.987Z"
     },
     {
       "class_id": "e729b2a5-5a7f-4ef3-aeb2-fac2eba83e76",
@@ -139,12 +52,13 @@
       },
       "difficulty": "intermediate",
       "tags": [
-        "herbs"
+        "herbs",
+        "release-exterior"
       ],
       "estimated_hours": 2.5,
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "path": "herbs/tcm-herbs-release-exterior",
-      "published_at": "2026-04-12T17:56:18.618020Z"
+      "published_at": "2026-04-12T17:59:05.989Z"
     },
     {
       "class_id": "7645594c-8737-42f4-ad0d-78c10b53701a",
@@ -157,12 +71,54 @@
       },
       "difficulty": "intermediate",
       "tags": [
-        "herbs"
+        "herbs",
+        "warm-interior",
+        "yang"
       ],
       "estimated_hours": 1.5,
-      "icon": "\ud83c\udf3f",
+      "icon": "🌿",
       "path": "herbs/tcm-herbs-warm-interior",
-      "published_at": "2026-03-17T04:56:28.599987Z"
+      "published_at": "2026-04-12T17:59:05.989Z"
+    },
+    {
+      "class_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "version": "1.0.0",
+      "title": "Introduction to Linux",
+      "description": "Learn the fundamentals of Linux — terminal navigation, file system, permissions, and basic commands. Perfect for absolute beginners.",
+      "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "linux",
+        "terminal",
+        "command-line",
+        "operating-systems"
+      ],
+      "estimated_hours": 3,
+      "icon": "🐧",
+      "path": "intro-to-linux",
+      "published_at": "2026-04-12T17:59:05.991Z"
+    },
+    {
+      "class_id": "bf362ea5-de5a-4ae1-8537-5ba91ad0ff4a",
+      "version": "0.1.0",
+      "title": "Pathogenic Factors Overview (Ch43)",
+      "description": "In this capsule, students will learn the fundamental theory of pathogenic factors in Traditional Chinese Medicine, understanding their nature, characteristics, and clinical implications. This knowledge is crucial for diagnosing and treating various conditions.",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "foundations",
+        "pathogenic-factors"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-pathogenic-factors-theory",
+      "published_at": "2026-04-12T17:59:05.988Z"
     },
     {
       "class_id": "0f67422e-87bf-4a0e-abbb-fcd6fb90599e",
@@ -170,17 +126,103 @@
       "title": "Qi Tonifying Formulas: Bensky Category",
       "description": "Master the 4 foundational qi tonifying formulas: Si Jun Zi Tang, Shen Ling Bai Zhu San, Bu Zhong Yi Qi Tang, Sheng Mai San. Targets CALE and NCCAOM board exams.",
       "author": {
+        "name": "Shuma",
+        "github": "BigSpoon33"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "CALE",
+        "NCCAOM",
+        "Formulas",
+        "Qi-Tonifying",
+        "TCM",
+        "Bensky",
+        "Spleen-Qi"
+      ],
+      "estimated_hours": 3,
+      "icon": "🌿",
+      "path": "tcm-formulas/qi-tonifying-beginner",
+      "published_at": "2026-04-12T17:59:05.992Z"
+    },
+    {
+      "class_id": "1d805ac4-0cbe-4208-973b-6aa335c629b6",
+      "version": "0.1.0",
+      "title": "Six Stage Theory — Shang Han Lun (Ch44)",
+      "description": "Understand the Six Stage Theory from Shang Han Lun, critical for diagnosing and treating external pathogenic factors in TCM.",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "intermediate",
+      "tags": [
+        "foundations",
+        "six-stages",
+        "shang-han-lun"
+      ],
+      "estimated_hours": 2,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-six-stages",
+      "published_at": "2026-04-12T17:59:05.988Z"
+    },
+    {
+      "class_id": "5a20c7b2-79a9-41d3-b1bd-c20ea72842c2",
+      "version": "0.1.0",
+      "title": "The Twelve Channels (Ch47)",
+      "description": "Understand the fundamental role of the Twelve Channels in Traditional Chinese Medicine, their functions, and how they relate to diagnosing and treating imbalances in the body.",
+      "author": {
         "name": "Dr. Chen",
         "github": "tcm-foundations"
       },
       "difficulty": "beginner",
       "tags": [
-        "tcm-formulas"
+        "foundations",
+        "channels",
+        "meridians"
       ],
-      "estimated_hours": 3.0,
-      "icon": "\ud83c\udf3f",
-      "path": "tcm-formulas/qi-tonifying-beginner",
-      "published_at": "2026-03-01T00:17:16.327831Z"
+      "estimated_hours": 2,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-twelve-channels",
+      "published_at": "2026-04-12T17:59:05.988Z"
+    },
+    {
+      "class_id": "f08b6d4f-3682-4dac-a42d-1002033e6c60",
+      "version": "0.1.0",
+      "title": "Three Burners / San Jiao Theory (Ch46)",
+      "description": "Learn the Three Burners theory (San Jiao) from Chapter 46, including its clinical applications and diagnostic significance in Traditional Chinese Medicine.",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "intermediate",
+      "tags": [
+        "foundations",
+        "three-burners",
+        "san-jiao"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-three-burners",
+      "published_at": "2026-04-12T17:59:05.988Z"
+    },
+    {
+      "class_id": "52e037bd-b329-41dc-bec4-f32e853a2b03",
+      "version": "0.1.0",
+      "title": "Yin & Yang Theory",
+      "description": "Understand the fundamental concepts of Yin and Yang in TCM and how they influence diagnosis and treatment.",
+      "author": {
+        "name": "Dr. Chen",
+        "github": "tcm-foundations"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "foundations",
+        "theory",
+        "yin-yang"
+      ],
+      "estimated_hours": 1.5,
+      "icon": "🌿",
+      "path": "foundations/tcm-foundations-yin-yang",
+      "published_at": "2026-04-12T17:59:05.989Z"
     }
   ]
 }
